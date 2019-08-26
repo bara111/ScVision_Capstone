@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lawerance.scvision">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/skin_scanner"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.lawerance.scvision.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+
+        <receiver android:name="com.lawerance.scvision.Widget.TestsWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+
+        <activity
+            android:name="com.lawerance.scvision.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lawerance.scvision.Custom_Camera_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lawerance.scvision.PictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lawerance.scvision.Pop_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lawerance.scvision.information"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.lawerance.scvision.YoutubeAPI" />
+        <activity
+            android:name="com.lawerance.scvision.Cancer_tests_list_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lawerance.scvision.Cancer_Info_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lawerance.scvision.Policy_Activity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.lawerance.scvision.Widget.UpdateUIWidgetService" />
+        <service android:name="com.lawerance.scvision.MyService" />
+
+    </application>
+
+</manifest>

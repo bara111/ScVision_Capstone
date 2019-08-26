@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradiant_backgroud"
+    android:orientation="vertical">
+
+    <include
+    android:id="@+id/app_bar"
+    layout="@layout/actionbar" />
+
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/start_scanning"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/skin_scanner"/>
+
+        <ImageView
+            android:id="@+id/shine"
+            android:layout_width="10dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_height="200dp"
+            android:src="@drawable/shine" />
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="serif"
+            android:letterSpacing="0.2"
+            android:text="@string/start_scanning"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    <com.marozzi.roundbutton.RoundButton
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/view_more_details"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/view_more_details"
+        app:rb_animation_alpha="false"
+        app:rb_animation_progress_color="@color/colorAccent"
+        app:rb_animation_progress_padding="8dp"
+        app:rb_animation_progress_width="2dp"
+        app:rb_animation_progress_style="circle"
+        app:rb_animation_corner_radius="20dp"
+        app:rb_animation_duration="500"
+        app:rb_background_color="@android:color/transparent"
+        app:rb_background_color_pressed="@color/colorPrimary"
+        app:rb_corner_color="@color/colorPrimary"
+        app:rb_corner_color_pressed="@color/colorPrimary"
+        app:rb_corner_radius="20dp"
+        app:rb_corner_width="2dp"
+        app:rb_text_color="@color/colorPrimary"
+        app:rb_text_color_pressed="@android:color/white" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:id="@+id/nestedscrollview"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
+
+
+

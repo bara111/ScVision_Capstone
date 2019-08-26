@@ -1,0 +1,137 @@
+<resources>
+<style name="MyTheme" parent="AppTheme">
+    <item name="android:windowBackground">@drawable/gradiant_backgroud</item>
+
+</style>
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="HeaderTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+
+    </style>
+
+
+    <style name="custom" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+    </style>
+
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#0b3d73</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+
+    <!-- Activity with no Title -->
+
+    <style name="ThemeOverlay.MyNoTitleActivity" parent="AppTheme">
+
+        <item name="windowActionBar">false</item>
+
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+
+
+    <!-- Dark Buttons -->
+
+    <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
+
+        <item name="colorButtonNormal">@color/grey_500</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:layout_marginRight">4dp</item>
+
+        <item name="android:layout_marginLeft">4dp</item>
+
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+
+    <!-- Light EditTexts -->
+
+    <style name="ThemeOverlay.MyLightEditText" parent="ThemeOverlay.AppCompat.Dark"/>
+
+
+
+    <style name="ThemeOverlay.MyTextDetail" parent="AppTheme">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:fadeScrollbars">true</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:maxLines">5</item>
+
+        <item name="android:padding">4dp</item>
+
+        <item name="android:scrollbars">vertical</item>
+
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+
+
+    <style name="ThemeOverlay.FirebaseIcon" parent="AppTheme">
+
+        <item name="android:layout_marginTop">@dimen/icon_top_margin</item>
+
+        <item name="android:layout_marginBottom">@dimen/icon_bottom_margin</item>
+
+    </style>
+
+
+
+    <style name="ThemeOverlay.MyTitleText" parent="AppTheme">
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:textSize">36sp</item>
+
+    </style>
+
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_settings_black_24dp</item>
+    </style>
+
+
+
+</resources>

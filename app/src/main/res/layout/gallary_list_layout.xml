@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_backgroud">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/actionbar" />
+
+
+
+    <com.comix.overwatch.HiveProgressView
+        android:id="@+id/loading_images"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:hive_shrink="true"
+        app:hive_color="@color/white"
+        app:hive_rainbow="false"
+        app:hive_maxAlpha="255"
+        app:hive_animDuration="1000"  />
+
+    <TextView
+        android:id="@+id/fetching_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/loading_images"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-48dp"
+        android:text="@string/fetcing_results"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:scrollbars="vertical"
+    android:id="@+id/list_users"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

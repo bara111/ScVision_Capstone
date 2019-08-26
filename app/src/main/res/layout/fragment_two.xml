@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Find the Right Distance"
+        android:textColor="@color/white"
+        android:textSize="33dp"
+        android:paddingBottom="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:fontFamily="serif"
+        android:gravity="center"
+        app:srcCompat="@drawable/camera_onboarding2"
+        android:paddingBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center"
+            android:text="Find a place with even lighting(not directly under lamp) to avoid shadows"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        >
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<resources>
+
+    <string name="app_name">Sc Vision</string>
+
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+
+    <string name="label_passwordless">Passwordless Authentication</string>
+
+    <string name="desc_passwordless">Use only an email to authenticate with Firebase.</string>
+    <string name="send_button_label">Send</string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+
+    <string name="label_custom_auth">Custom Authentication</string>
+
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+
+    <string name="hint_user_id">User ID</string>
+
+    <string name="get_custom_token">Get Token</string>
+
+    <string name="sign_in">Sign In</string>
+
+    <string name="create_account">Create Account</string>
+
+    <string name="send_link">Send Link</string>
+
+    <string name="sign_out">Sign Out</string>
+
+    <string name="verify_email">Verify Email</string>
+
+    <string name="disconnect">Disconnect</string>
+
+    <string name="loading">Loading…</string>
+
+    <string name="custom_token">Custom Token</string>
+
+    <string name="signed_in">Signed In</string>
+
+    <string name="signed_out">Signed Out</string>
+
+    <string name="token_null">Token: null</string>
+
+    <string name="hint_email">Email</string>
+
+    <string name="hint_password">Password</string>
+
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+
+    <string name="auth_failed">Authentication failed</string>
+
+    <string name="start_phone_auth">Start</string>
+
+    <string name="verify_phone_auth">Verify</string>
+
+    <string name="resend_phone_auth">Resend</string>
+
+    <string name="hint_phone_number">Phone Number</string>
+
+    <string name="hint_verification_code">Verification Code</string>
+
+    <string name="status_code_sent">Code Sent</string>
+
+    <string name="status_verification_failed">Verification failed</string>
+
+    <string name="status_verification_succeeded">Verification succeeded</string>
+
+    <string name="status_sign_in_failed">Sign-in failed</string>
+
+    <string name="instant_validation">(instant validation)</string>
+
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+
+    <string name="firebase_user_management">Firebase User Management</string>
+
+
+    <string name="google_status_fmt">Google User: %s</string>
+
+    <string name="google_title_text">Google Sign In</string>
+
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+
+    <string name="facebook_title_text">Facebook Login</string>
+
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+
+    <string name="emailpassword_title_text">Email and Password</string>
+
+
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+
+    <string name="phone_title_text">Phone Number</string>
+
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+
+    <string name="twitter_title_text">Twitter Login</string>
+
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+
+    <string name="id_fmt">User ID: %s</string>
+
+    <string name="email_fmt">Email: %s</string>
+    <string name="facebook_application_id" translatable="false">1117612175087488</string>
+    <string name="facebook_login_protocol" translatable="false">fb1117612175087488</string>
+    <string name="photo_advice">Make sure photo is sharp, centered and free of hair or other obstructing objects.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="start_scanning">Start Scanning !</string>
+    <string name="tell_us_a_bit_more_about_this_skin_spot">Tell us a bit more about this skin spot</string>
+    <string name="what_is_the_size_of_the_spot">what is the size of the spot?</string>
+    <string name="less_than_6mm">less than 6mm</string>
+    <string name="fetcing_results">Fetcing Results ...</string>
+    <string name="what_causes_skin_cancer_how_do_you_detect">What causes skin cancer? How do you detect it? How can I prevent it? Dr. Oz, Hugh Jackman, and a few expert dermatologists are here to answer all of your dire questions about Melanoma.</string>
+    <string name="how_to_check_your_skin_for_skin_cancer">How TO CHECK YOUR SKIN FOR SKIN CANCER ?</string>
+    <string name="where_your_moles_are_their_usual_look_and_feel">WHERE YOUR MOLES ARE THEIR USUAL LOOK AND FEEL.</string>
+    <string name="what_does_this_mean">What does this mean?</string>
+    <string name="next_steps_to_take_1_save_this_photo_so_you_can_easily_track_and_monitor_any_changes_over_time_2_make_new_smart_checks_of_your_skin_spot_on_a_regular_basis_skin_changes_over_time_and_so_can_the_risk_level_3_make_sure_we_have_your_correct_contact_details_as_part_of_the_smart_check_our_dermatologists_review_this_photo_for_control_purposes_and_might_want_to_reach_out_to_you">Next steps to take 1. Save this photo, so you can easily track and monitor any changes over time. 2. Make new Smart Checks of your skin spot on a regular basis. Skin changes over time and so can the risk level. 3. Make sure we have your correct contact details. As part of the Smart Check, our dermatologists review this photo for control purposes and might want to reach out to you.</string>
+    <string name="our_algorithm_performed_a_check_on_your_photo_and_did_not_find_signs_of_skin_cancer_these_signs_include_irregular_patterns_multiple_colors_asymmetry_size_and_uneven_borders_however_you_have_indicated_that_your_skin_spot_is_either_infected_changing_or_bleeding_these_symptoms_are_not_detected_by_our_algorithm_but_can_be_a_potentially_dangerous_sign_if_at_any_time_you_feel_uncomfortable_about_this_spot_please_visit_a_doctor">Our algorithm performed a check on your photo and did not find signs of skin cancer. These signs include irregular patterns, multiple colors, asymmetry, size and uneven borders. However, you have indicated that your skin spot is either infected, changing or bleeding. These symptoms are not detected by our algorithm but can be a potentially dangerous sign. If at any time you feel uncomfortable about this spot, please visit a doctor.</string>
+    <string name="view_more_details">view More Details</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="titles_activity_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hospitals_location">Hospitals location</string>
+    <string name="press_green_button_to_call">Press Green Button to call</string>
+    <string name="hi">hi</string>
+
+</resources>
